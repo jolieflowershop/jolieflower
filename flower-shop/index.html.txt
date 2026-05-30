@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Boutique</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: linear-gradient(#ffe4ec, #fff0f5);
+      text-align: center;
+    }
+    header {
+      padding: 60px;
+    }
+    h1 {
+      color: #ff4d88;
+      font-size: 40px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 20px;
+    }
+    button {
+      background: #ff4d88;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 20px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Flowers That Never Die 🌷</h1>
+  <p>Handmade crochet bouquets 💐</p>
+</header>
+
+<div class="grid">
+
+  <div class="card">
+    <h2>🌷 Single Stem</h2>
+    <p>13 GEL</p>
+    <button>Order</button>
+  </div>
+
+  <div class="card">
+    <h2>🩷 2 Stems</h2>
+    <p>25 GEL</p>
+    <button>Order</button>
+  </div>
+
+  <div class="card">
+    <h2>💐 5 Flowers</h2>
+    <p>60 GEL</p>
+    <button>Order</button>
+  </div>
+
+  <div class="card">
+    <h2>🌸 10 Flowers</h2>
+    <p>125 GEL</p>
+    <button>Order</button>
+  </div>
+
+</div>
+
+</body>
+</html>
